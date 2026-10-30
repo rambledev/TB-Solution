@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="AI core abstract graphic">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFE9A8" stop-opacity=".9"/>
+      <stop offset=".45" stop-color="#BFDAFF" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#EAF4FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sphere" cx="36%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".18" stop-color="#CFE3FF"/>
+      <stop offset=".5" stop-color="#5A9DF2"/>
+      <stop offset=".82" stop-color="#2468CF"/>
+      <stop offset="1" stop-color="#173B75"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFF6D9"/>
+      <stop offset=".6" stop-color="#FFE9A8"/>
+      <stop offset="1" stop-color="#FFD46B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#FFE9A8" stop-opacity=".7"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="118" fill="url(#halo)"/>
+  <ellipse cx="120" cy="120" rx="104" ry="34" fill="none" stroke="url(#ring)" stroke-width="2" transform="rotate(-24 120 120)" opacity=".85"/>
+  <circle cx="120" cy="120" r="62" fill="url(#sphere)"/>
+  <circle cx="120" cy="120" r="30" fill="url(#core)" opacity=".85"/>
+  <path d="M120 98Q120 120 142 120Q120 120 120 142Q120 120 98 120Q120 120 120 98Z" fill="#FFFFFF"/>
+  <ellipse cx="98" cy="92" rx="20" ry="11" fill="#FFFFFF" opacity=".55" transform="rotate(-30 98 92)"/>
+  <ellipse cx="120" cy="120" rx="104" ry="34" fill="none" stroke="url(#ring)" stroke-width="2.5" stroke-dasharray="160 500" transform="rotate(-24 120 120)"/>
+  <ellipse cx="120" cy="120" rx="92" ry="26" fill="none" stroke="#FFFFFF" stroke-opacity=".7" stroke-width="1.5" transform="rotate(32 120 120)"/>
+  <circle cx="30" cy="155" r="6" fill="#FFE9A8" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="206" cy="78" r="5" fill="#2878E8" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="190" cy="172" r="4" fill="#FFFFFF"/>
+  <circle cx="52" cy="66" r="3.5" fill="#FFFFFF"/>
+  <path d="M200 28Q200 38 210 38Q200 38 200 48Q200 38 190 38Q200 38 200 28Z" fill="#FFE9A8"/>
+  <path d="M36 196Q36 203 43 203Q36 203 36 210Q36 203 29 203Q36 203 36 196Z" fill="#9CC8FF"/>
+</svg>

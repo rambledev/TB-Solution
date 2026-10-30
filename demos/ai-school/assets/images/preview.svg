@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-label="ตัวอย่างหน้าจอ AI School Intelligence Dashboard">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF4FF"/><stop offset=".6" stop-color="#F5F8FD"/><stop offset="1" stop-color="#FFF6D9"/></linearGradient>
+    <linearGradient id="deep" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2558A6"/><stop offset=".55" stop-color="#173B75"/><stop offset="1" stop-color="#0E2650"/></linearGradient>
+    <linearGradient id="pri" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4C97F7"/><stop offset="1" stop-color="#1F5FC4"/></linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22A06B" stop-opacity=".28"/><stop offset="1" stop-color="#22A06B" stop-opacity="0"/></linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#173B75" flood-opacity=".14"/></filter>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <!-- window -->
+  <g filter="url(#sh)">
+    <rect x="70" y="70" width="1140" height="700" rx="28" fill="#fff"/>
+  </g>
+  <rect x="70" y="70" width="1140" height="44" rx="28" fill="#F5F9FF"/>
+  <rect x="70" y="92" width="1140" height="22" fill="#F5F9FF"/>
+  <circle cx="102" cy="92" r="6" fill="#F5A0A0"/><circle cx="122" cy="92" r="6" fill="#FFE9A8"/><circle cx="142" cy="92" r="6" fill="#A6E3C5"/>
+  <!-- sidebar -->
+  <rect x="70" y="114" width="200" height="656" fill="#FBFDFF"/>
+  <rect x="92" y="134" width="34" height="34" rx="10" fill="url(#pri)"/>
+  <rect x="136" y="140" width="90" height="10" rx="5" fill="#173B75"/><rect x="136" y="156" width="70" height="7" rx="3.5" fill="#7DB3F5"/>
+  <rect x="88" y="186" width="164" height="44" rx="12" fill="#FFF3CF"/>
+  <rect x="88" y="246" width="164" height="36" rx="10" fill="url(#pri)"/>
+  <g fill="#DCE7F6"><rect x="104" y="300" width="120" height="9" rx="4.5"/><rect x="104" y="332" width="104" height="9" rx="4.5"/><rect x="104" y="364" width="126" height="9" rx="4.5"/><rect x="104" y="396" width="96" height="9" rx="4.5"/><rect x="104" y="428" width="118" height="9" rx="4.5"/><rect x="104" y="460" width="108" height="9" rx="4.5"/><rect x="104" y="492" width="90" height="9" rx="4.5"/></g>
+  <rect x="88" y="700" width="164" height="30" rx="10" fill="#FFF6D9"/>
+  <!-- KPI cards -->
+  <g font-family="IBM Plex Sans Thai, Prompt, sans-serif">
+    <g>
+      <rect x="296" y="138" width="190" height="112" rx="18" fill="#fff" stroke="#EAF1FB"/>
+      <rect x="312" y="154" width="32" height="32" rx="10" fill="#EAF4FF"/>
+      <text x="312" y="214" font-size="13" fill="#5B7396">นักเรียนทั้งหมด</text>
+      <text x="312" y="238" font-size="24" font-weight="700" fill="#173B75">1,200</text>
+      <polyline points="400,236 416,230 430,232 446,222 462,218 474,212" fill="none" stroke="#2878E8" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g>
+      <rect x="500" y="138" width="190" height="112" rx="18" fill="#fff" stroke="#EAF1FB"/>
+      <rect x="516" y="154" width="32" height="32" rx="10" fill="#E3F6EC"/>
+      <text x="516" y="214" font-size="13" fill="#5B7396">อัตราเข้าเรียน</text>
+      <text x="516" y="238" font-size="24" font-weight="700" fill="#173B75">94.4%</text>
+      <polyline points="604,232 620,226 634,234 650,224 664,220 678,216" fill="none" stroke="#22A06B" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g>
+      <rect x="704" y="138" width="190" height="112" rx="18" fill="#fff" stroke="#EAF1FB"/>
+      <rect x="720" y="154" width="32" height="32" rx="10" fill="#FFF3CF"/>
+      <text x="720" y="214" font-size="13" fill="#5B7396">GPA เฉลี่ย</text>
+      <text x="720" y="238" font-size="24" font-weight="700" fill="#173B75">2.94</text>
+      <polyline points="808,230 828,226 848,222 868,218 882,214" fill="none" stroke="#F5C84C" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <!-- AI card -->
+    <rect x="908" y="138" width="278" height="290" rx="20" fill="url(#deep)"/>
+    <circle cx="1150" cy="160" r="70" fill="#FFE9A8" opacity=".14"/>
+    <rect x="928" y="158" width="38" height="38" rx="12" fill="#FFE9A8"/>
+    <path d="M947 166l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#173B75"/>
+    <text x="978" y="176" font-size="15" font-weight="600" fill="#fff">AI Executive Summary</text>
+    <text x="978" y="194" font-size="11" fill="#9FB8E0">Rule-based simulation</text>
+    <rect x="928" y="214" width="238" height="78" rx="14" fill="#fff" opacity=".08"/>
+    <g fill="#fff" opacity=".85"><rect x="942" y="230" width="208" height="7" rx="3.5"/><rect x="942" y="248" width="190" height="7" rx="3.5"/><rect x="942" y="266" width="150" height="7" rx="3.5"/></g>
+    <rect x="928" y="306" width="62" height="22" rx="11" fill="#FFE9A8"/><rect x="998" y="306" width="62" height="22" rx="11" fill="#fff" opacity=".14"/><rect x="1068" y="306" width="62" height="22" rx="11" fill="#fff" opacity=".14"/>
+    <g fill="#fff" opacity=".7"><circle cx="936" cy="352" r="5" fill="#FFE9A8"/><rect x="950" y="348" width="190" height="7" rx="3.5"/><circle cx="936" cy="376" r="5" fill="#FFE9A8"/><rect x="950" y="372" width="170" height="7" rx="3.5"/><circle cx="936" cy="400" r="5" fill="#FFE9A8"/><rect x="950" y="396" width="182" height="7" rx="3.5"/></g>
+    <!-- Attendance chart -->
+    <rect x="296" y="266" width="598" height="230" rx="20" fill="#fff" stroke="#EAF1FB"/>
+    <text x="318" y="298" font-size="15" font-weight="600" fill="#173B75">Attendance Trend</text>
+    <rect x="770" y="282" width="104" height="26" rx="13" fill="#EAF4FF"/>
+    <g stroke="#EEF3FA"><line x1="318" y1="350" x2="872" y2="350"/><line x1="318" y1="400" x2="872" y2="400"/><line x1="318" y1="450" x2="872" y2="450"/></g>
+    <path d="M318 420 C 380 400, 420 430, 480 405 S 600 380, 660 395 S 780 360, 872 352 L 872 476 L 318 476 Z" fill="url(#area)"/>
+    <path d="M318 420 C 380 400, 420 430, 480 405 S 600 380, 660 395 S 780 360, 872 352" fill="none" stroke="#22A06B" stroke-width="3.5"/>
+    <line x1="318" y1="340" x2="872" y2="340" stroke="#9AAAC2" stroke-width="2" stroke-dasharray="8 7"/>
+    <!-- bars -->
+    <rect x="296" y="512" width="380" height="234" rx="20" fill="#fff" stroke="#EAF1FB"/>
+    <text x="318" y="544" font-size="15" font-weight="600" fill="#173B75">Academic Performance</text>
+    <g>
+      <rect x="326" y="610" width="18" height="110" rx="5" fill="#8DBEF7"/><rect x="348" y="600" width="18" height="120" rx="5" fill="#2878E8"/>
+      <rect x="384" y="620" width="18" height="100" rx="5" fill="#8DBEF7"/><rect x="406" y="612" width="18" height="108" rx="5" fill="#2878E8"/>
+      <rect x="442" y="630" width="18" height="90" rx="5" fill="#8DBEF7"/><rect x="464" y="622" width="18" height="98" rx="5" fill="#2878E8"/>
+      <rect x="500" y="604" width="18" height="116" rx="5" fill="#8DBEF7"/><rect x="522" y="640" width="18" height="80" rx="5" fill="#F0A030"/>
+      <rect x="558" y="616" width="18" height="104" rx="5" fill="#8DBEF7"/><rect x="580" y="608" width="18" height="112" rx="5" fill="#2878E8"/>
+      <rect x="616" y="626" width="18" height="94" rx="5" fill="#8DBEF7"/><rect x="638" y="618" width="18" height="102" rx="5" fill="#2878E8"/>
+    </g>
+    <!-- donut -->
+    <rect x="690" y="512" width="204" height="234" rx="20" fill="#fff" stroke="#EAF1FB"/>
+    <text x="710" y="544" font-size="15" font-weight="600" fill="#173B75">Student Risk</text>
+    <g transform="translate(792 640)" fill="none" stroke-width="20">
+      <circle r="58" stroke="#22A06B" stroke-dasharray="324 364.4"/>
+      <circle r="58" stroke="#F0A030" stroke-dasharray="21 364.4" stroke-dashoffset="-324"/>
+      <circle r="58" stroke="#E5484D" stroke-dasharray="19 364.4" stroke-dashoffset="-345"/>
+    </g>
+    <text x="792" y="646" text-anchor="middle" font-size="22" font-weight="700" fill="#173B75">128</text>
+    <!-- insights -->
+    <rect x="908" y="444" width="278" height="302" rx="20" fill="#fff" stroke="#EAF1FB"/>
+    <text x="928" y="476" font-size="15" font-weight="600" fill="#173B75">AI Insights</text>
+    <g>
+      <rect x="928" y="494" width="238" height="70" rx="14" fill="#FDECEC"/><rect x="928" y="508" width="4" height="42" rx="2" fill="#E5484D"/>
+      <rect x="944" y="510" width="150" height="9" rx="4.5" fill="#173B75"/><rect x="944" y="528" width="196" height="7" rx="3.5" fill="#E8A3A5"/><rect x="944" y="542" width="120" height="7" rx="3.5" fill="#E8A3A5"/>
+      <rect x="928" y="576" width="238" height="70" rx="14" fill="#FFF1DD"/><rect x="928" y="590" width="4" height="42" rx="2" fill="#F0A030"/>
+      <rect x="944" y="592" width="130" height="9" rx="4.5" fill="#173B75"/><rect x="944" y="610" width="186" height="7" rx="3.5" fill="#F3C98A"/><rect x="944" y="624" width="140" height="7" rx="3.5" fill="#F3C98A"/>
+      <rect x="928" y="658" width="238" height="70" rx="14" fill="#E3F6EC"/><rect x="928" y="672" width="4" height="42" rx="2" fill="#22A06B"/>
+      <rect x="944" y="674" width="160" height="9" rx="4.5" fill="#173B75"/><rect x="944" y="692" width="176" height="7" rx="3.5" fill="#9ED8BC"/><rect x="944" y="706" width="110" height="7" rx="3.5" fill="#9ED8BC"/>
+    </g>
+  </g>
+</svg>
