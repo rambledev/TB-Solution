@@ -16,6 +16,8 @@ return [
         'description' => 'TB-Solution รวบรวมแนวทางการพัฒนาระบบงานอัจฉริยะ ด้วยเทคโนโลยี AI ที่ช่วยวิเคราะห์ปัญหา เพิ่มประสิทธิภาพ และออกแบบระบบให้ตอบโจทย์การทำงานขององค์กร',
         'primary'     => ['label' => 'ดูระบบทั้งหมด', 'url' => '#demos'],
         'secondary'   => ['label' => 'เกี่ยวกับ TB-Solution', 'url' => '#about'],
+        // Highlighted link to the newest demo (leave url empty to hide)
+        'spotlight'   => ['tag' => 'ใหม่', 'label' => 'ทดลอง AI Executive Dashboard สำหรับผู้บริหารโรงเรียน', 'url' => 'demos/ai-executive/'],
         'badges'      => ['Desktop · Tablet · Mobile', 'ปรับแต่งได้ตามองค์กร'],
     ],
 

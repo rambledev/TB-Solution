@@ -847,6 +847,29 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .demo-card--featured .demo-card__title { font-size: clamp(1.25rem, 1.05rem + .6vw, 1.6rem); }
 .demo-card__eyebrow { display: inline-flex; align-items: center; gap: 6px; align-self: flex-start; margin-bottom: 10px; padding: 4px 12px; border-radius: var(--radius-pill); background: var(--c-yellow-soft); color: var(--c-yellow-ink); font-size: .75rem; font-weight: 600; }
 .demo-card__subtitle { margin-top: 2px; font-size: var(--fs-xs); font-weight: 500; color: var(--c-primary); }
+.hero__spotlight {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 100%;
+    margin-top: 18px;
+    padding: 6px 14px 6px 6px;
+    border: 1px solid rgba(124, 58, 237, .22);
+    border-radius: var(--radius-pill);
+    background: rgba(255, 255, 255, .78);
+    box-shadow: var(--shadow-sm);
+    color: var(--c-deep);
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+}
+.hero__spotlight:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.hero__spotlight:hover .icon--sm { transform: translateX(3px); }
+.hero__spotlight .icon--sm { color: #7C3AED; transition: transform var(--dur) var(--ease); }
+.hero__spotlight-tag { display: inline-flex; align-items: center; gap: 4px; flex-shrink: 0; padding: 3px 10px; border-radius: var(--radius-pill); background: linear-gradient(135deg, #8B5CF6, #2563EB); color: var(--c-white); font-size: .75rem; font-weight: 600; }
+.hero__spotlight-text { min-width: 0; }
 .demo-card__status--badge { background: var(--grad-primary); color: var(--c-white); box-shadow: var(--shadow-glow); }
 
 /* Placeholder mock UI */

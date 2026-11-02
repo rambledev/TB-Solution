@@ -52,4 +52,18 @@ return [
         'demo_url'    => 'demos/ai-school/',
         'status'      => 'ready',
     ],
+    [
+        'slug'        => 'ai-executive',
+        'name'        => 'AI Executive Dashboard',
+        'name_en'     => 'AI Executive Dashboard for School Leaders',
+        'category'    => 'Education / AI',
+        'description' => 'แดชบอร์ดสำหรับผู้อำนวยการโรงเรียน วิเคราะห์ภาพรวม ครู นักเรียน และห้องเรียนด้วย AI พร้อม Mock Data Generator สลับสถานการณ์โรงเรียนได้ทันที',
+        'image'       => 'demos/ai-executive/assets/images/preview.svg',
+        'tags'        => ['AI Analytics', 'Teacher Evaluation', 'Mock Data', 'Dark Mode', 'Export PDF/Excel'],
+        'badge'       => 'ใหม่',
+        'featured'    => false,
+        'detail_url'  => 'demos/ai-executive/#ai',
+        'demo_url'    => 'demos/ai-executive/',
+        'status'      => 'ready',
+    ],
 ];

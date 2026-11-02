@@ -20,7 +20,7 @@ RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" \
         echo '<DirectoryMatch "^/var/www/html/(config|includes|sections)">'; \
         echo '    Require all denied'; \
         echo '</DirectoryMatch>'; \
-        echo '<DirectoryMatch "^/var/www/html/demos/[^/]+/(config|lib|components|pages|data)">'; \
+        echo '<DirectoryMatch "^/var/www/html/demos/[^/]+/(config|lib|components|pages|data|includes|views)">'; \
         echo '    Require all denied'; \
         echo '</DirectoryMatch>'; \
         echo '<FilesMatch "^(bootstrap\.php|README\.md)$">'; \

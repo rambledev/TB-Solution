@@ -34,6 +34,14 @@ $hero = tb_config('content.hero', []);
                 </a>
             </div>
 
+<?php if (!empty($hero['spotlight']['url'])): ?>
+            <a class="hero__spotlight" href="<?= e(tb_safe_url($hero['spotlight']['url'])) ?>" data-reveal>
+                <span class="hero__spotlight-tag"><?= tb_icon('sparkles', 'icon icon--xs') ?><?= e($hero['spotlight']['tag'] ?? '') ?></span>
+                <span class="hero__spotlight-text"><?= e($hero['spotlight']['label'] ?? '') ?></span>
+                <?= tb_icon('arrow-right', 'icon icon--sm') ?>
+            </a>
+<?php endif; ?>
+
             <ul class="hero__badges" data-reveal>
 <?php foreach ($hero['badges'] ?? [] as $badge): ?>
                 <li><?= tb_icon('check', 'icon icon--xs') ?><?= e($badge) ?></li>
