@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-label="ตัวอย่างหน้าจอ EduCare">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E0F2FE"/><stop offset="1" stop-color="#F1F5F9"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0EA5E9"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0F172A" flood-opacity=".14"/></filter>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <circle cx="1120" cy="120" r="180" fill="#BAE6FD" opacity=".5"/>
+  <!-- three role cards -->
+  <g filter="url(#sh)" font-family="Sarabun, sans-serif" font-weight="700">
+    <rect x="90" y="120" width="330" height="430" rx="34" fill="#fff"/>
+    <rect x="475" y="90" width="330" height="490" rx="34" fill="#fff"/>
+    <rect x="860" y="120" width="330" height="430" rx="34" fill="#fff"/>
+  </g>
+  <g>
+    <rect x="125" y="160" width="80" height="80" rx="24" fill="#2563EB"/><rect x="146" y="182" width="38" height="28" rx="6" fill="none" stroke="#fff" stroke-width="6"/><path d="M152 222h26" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    <text x="125" y="290" font-family="Inter" font-size="18" font-weight="700" fill="#2563EB" letter-spacing="3">TEACHER</text>
+    <text x="125" y="330" font-family="Sarabun" font-size="34" font-weight="700" fill="#0F172A">สำหรับครู</text>
+    <g fill="#E2E8F0"><rect x="125" y="360" width="250" height="14" rx="7"/><rect x="125" y="390" width="200" height="14" rx="7"/></g>
+    <rect x="125" y="470" width="260" height="50" rx="16" fill="#2563EB"/>
+
+    <rect x="510" y="130" width="80" height="80" rx="24" fill="#0EA5E9"/><circle cx="538" cy="160" r="10" fill="#fff"/><circle cx="564" cy="160" r="10" fill="#fff"/><path d="M522 192c4-14 28-14 32 0M548 192c4-14 28-14 32 0" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <text x="510" y="260" font-family="Inter" font-size="18" font-weight="700" fill="#0EA5E9" letter-spacing="3">PARENT</text>
+    <text x="510" y="300" font-family="Sarabun" font-size="34" font-weight="700" fill="#0F172A">สำหรับผู้ปกครอง</text>
+    <rect x="510" y="330" width="260" height="120" rx="20" fill="url(#g)"/>
+    <circle cx="560" cy="390" r="30" fill="#fff"/><text x="545" y="400" font-family="Sarabun" font-size="26" font-weight="700" fill="#2563EB">ภู</text>
+    <rect x="606" y="366" width="120" height="14" rx="7" fill="#fff"/><rect x="606" y="394" width="90" height="22" rx="11" fill="#DCFCE7"/>
+    <rect x="510" y="470" width="260" height="70" rx="18" fill="#EFF6FF"/><circle cx="545" cy="505" r="14" fill="#F59E0B"/><rect x="570" y="490" width="150" height="10" rx="5" fill="#0F172A"/><rect x="570" y="510" width="40" height="14" rx="7" fill="#DCFCE7"/><rect x="616" y="510" width="40" height="14" rx="7" fill="#DCFCE7"/><rect x="662" y="510" width="40" height="14" rx="7" fill="#DCFCE7"/>
+
+    <rect x="895" y="160" width="80" height="80" rx="24" fill="#0F172A"/><g fill="#fff"><rect x="915" y="210" width="10" height="14"/><rect x="933" y="196" width="10" height="28"/><rect x="951" y="182" width="10" height="42"/></g>
+    <text x="895" y="290" font-family="Inter" font-size="18" font-weight="700" fill="#0F172A" letter-spacing="3">EXECUTIVE</text>
+    <text x="895" y="330" font-family="Sarabun" font-size="34" font-weight="700" fill="#0F172A">สำหรับผู้บริหาร</text>
+    <path d="M900 440 C 950 400, 990 430, 1040 405 S 1110 380, 1150 390" fill="none" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+    <rect x="895" y="470" width="260" height="50" rx="16" fill="#0F172A"/>
+  </g>
+  <!-- notification flow -->
+  <g filter="url(#sh)"><rect x="330" y="625" width="620" height="110" rx="26" fill="#fff"/></g>
+  <circle cx="390" cy="680" r="28" fill="#FEE2E2"/><path d="M380 670l20 20M400 670l-20 20" stroke="#DC2626" stroke-width="6" stroke-linecap="round"/>
+  <rect x="436" y="660" width="260" height="14" rx="7" fill="#0F172A"/><rect x="436" y="686" width="180" height="12" rx="6" fill="#94A3B8"/>
+  <rect x="720" y="660" width="62" height="24" rx="12" fill="#DCFCE7"/><rect x="790" y="660" width="62" height="24" rx="12" fill="#DCFCE7"/><rect x="860" y="660" width="62" height="24" rx="12" fill="#DCFCE7"/>
+  <text x="734" y="678" font-family="Inter" font-size="13" font-weight="700" fill="#16A34A">In-App</text><text x="806" y="678" font-family="Inter" font-size="13" font-weight="700" fill="#16A34A">Push</text><text x="876" y="678" font-family="Inter" font-size="13" font-weight="700" fill="#16A34A">LINE</text>
+</svg>

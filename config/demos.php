@@ -65,5 +65,18 @@ return [
         'detail_url'  => 'demos/ai-executive/#ai',
         'demo_url'    => 'demos/ai-executive/',
         'status'      => 'ready',
+    ],    [
+        'slug'        => 'educare',
+        'name'        => 'EduCare',
+        'name_en'     => 'EduCare — School · Teacher · Parent Platform',
+        'category'    => 'Education',
+        'description' => 'แพลตฟอร์มดูแลนักเรียนที่เชื่อมโรงเรียน ครู และผู้ปกครอง เลือกทดลองได้ 3 บทบาทโดยไม่ต้อง Login พร้อมระบบแจ้งเตือนผู้ปกครองทันที',
+        'image'       => 'demos/educare/assets/images/preview.svg',
+        'tags'        => ['ครู · ผู้ปกครอง · ผู้บริหาร', 'เช็คชื่อ', 'Portfolio', 'ระบบสะสมดาว', 'แจ้งเตือน LINE'],
+        'badge'       => 'ใหม่',
+        'featured'    => false,
+        'detail_url'  => 'demos/educare/#roles',
+        'demo_url'    => 'demos/educare/',
+        'status'      => 'ready',
     ],
 ];
