@@ -11,7 +11,7 @@
 
     var CONFIG = window.EDU_CONFIG || {};
     var IS_DEV = Boolean(CONFIG.debug);
-    var KEY = 'educare.demo.v1';
+    var KEY = 'educare.demo.v2';
     var state = null;
     var listeners = [];
     var counter = 0;

@@ -19,7 +19,7 @@ function educare_seed(string $today): array
     $chance = static fn (float $p): bool => mt_rand() / mt_getrandmax() < $p;
 
     $schools = [
-        ['id' => 'SCH1', 'name' => 'โรงเรียนอนุบาลโพนสูง', 'short' => 'อนุบาลโพนสูง'],
+        ['id' => 'SCH1', 'name' => 'โรงเรียนอนุบาลบ้านดอกไม้', 'short' => 'อนุบาลบ้านดอกไม้'],
         ['id' => 'SCH2', 'name' => 'โรงเรียนสายรุ้ง',      'short' => 'สายรุ้ง'],
     ];
     $classrooms = [
